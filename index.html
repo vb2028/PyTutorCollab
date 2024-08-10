@@ -3,7 +3,7 @@
 <html lang="en">
       <head>
           <meta charset="utf-8">
-           <title>vb2028封面</title>
+           <title>vb2028</title>
           <!--引入重置样式表-->
           <link rel="stylesheet" href="./2021/css/reset.css">
           <!--<link rel="stylesheet" href="./css/reset.css">-->
@@ -544,6 +544,14 @@
                   <li ><a href="./20240131.html">网站定位</a></li>
 
                   <li class="line">|</li>
+                  <li ><a href="./20240526.html">英语学习角 </a></li>
+
+                  <li class="line">|</li>
+                  <li ><a href="./20240527.html">英语诗歌画布</a></li>
+
+
+
+                  <li class="line">|</li>
                   <li ><a href="http://www.vb2028.com/indexecs20240310.html">智能仿生园</a> 
                  
                         <!--<i class="fas fa-angle-down"></i>--> 
@@ -921,7 +929,53 @@
       </div>                    
       <br></br>
       <script type="text/javascript" src="./2021/js/tools.js"></script>
-      <script type="text/javascript"></script>
+      <script type="text/javascript">
+           // 哈哈，没问题！那我就给你写一个简单的Ajax代码示例吧。这段代码会发送一个GET请求到你的后端服务，并把返回的结果显示在页面上。
+
+            XMLHttpRequest 对象
+            
+            var xhr = new XMLHttpRequest();
+            
+            // 配置请求的类型、URL 以及是否异步处理请求。
+            
+            xhr.open('GET', 'http://www.vb2028.cn/your-endpoint', true);
+            
+            // 发送请求
+            
+            xhr.send();
+            
+            // 当请求得到响应时，执行这个函数
+            
+            xhr.onload = function () {
+            
+            // 检查响应状态码是否为200（即请求成功）
+            
+            if (xhr.status === 200) {
+            
+            // 将返回的数据显示在页面上
+            
+            document.getElementById('response').innerHTML = xhr.responseText;
+            
+            } else {
+            
+            // 如果请求失败，显示错误信息
+            
+            alert('Request failed. Returned status of ' + xhr.status);
+            
+            }
+            
+            };
+            
+            HTML文件中添加一个元素来显示响应，比如：
+            
+            response">
+            
+            //上面的JavaScript代码放在你的HTML文件的<script>标签里。记得把URL替换成你后端服务的实际接口地址哦！
+
+
+
+
+      </script>
             <!--<font size="4" face="隶书" color="#808000">&nbsp;&nbsp;&nbsp; </font></b>
 		<font color="#808000"><b><font size="4" face="隶书">-->
 		<!--<a href="mailto:vb0912@sohu.com"><font color="#808000">vb0912@sohu.com</font></a>&nbsp; 
